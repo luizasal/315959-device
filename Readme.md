@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Luiza Salavatullina](https://up.htmlacademy.ru/htmlcss/23/user/315959).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Шашева](https://htmlacademy.ru/profile/loyso)
 
 ---
 
