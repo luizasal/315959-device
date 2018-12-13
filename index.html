@@ -8,9 +8,9 @@
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo">
-                    <h1>Device</h1>
+                    <h2>Device</h2>
                 </a>
-                <!-- search-->
+                <input type="search" name="search" placeholder="Поиск по сайту" />
                 <ul class="user-navigation">
                     <li class="user-navigation__item"><a href="login.html">Вход</a></li>
                     <li class="user-navigation__item"><a href="compare.html">Сравнить</a></li>
@@ -49,7 +49,7 @@
                 <h2 class="visually-hidden">Категории товаров</h2>
                 <ul class="catalog-categories-list">
                     <li class="catalog-categories__item">
-                        <a href=virtual-reality.html>
+                        <a href="virtual-reality.html">
                             <img src="img/popular-1.svg" width="160" height="160" alt="Иконка «Виртуальная реальность»" />
                             <h3>Виртуальная реальность</h3>
                         </a>
@@ -73,7 +73,7 @@
                         </a>
                     </li>
                     <li class="catalog-categories__item">
-                        <a href="popular-5.html">
+                        <a href="smart-watches.html">
                             <img src="img/popular-5.svg" width="160" height="160" alt="Иконка «Умные часы»" />
                             <h3>Умные часы</h3>
                         </a>
@@ -127,13 +127,40 @@
                     <img src="img/map.png" width="560" height="222" alt="Карта"/>
                 </a>
                 <a class="button" href="contact_form.html">Напишите нам</a>
-            </section>
+            </section> 
+            <div class="modal-window">
+                <form class="contact_form" method="post" action="https://echo.htmlacademy.ru">
+                    <h2 class="visually-hidden">Напишите нам</h2>
+                    <button class="icon-button">
+                        <img src="img/modal-close.svg" width="55" height="55" alt="Закрыть модальное окно" />
+                    </button>
+                    <p> 
+                        <label for="user-name">Ваше имя:</label>
+                        <input id="user-name" type="text" name="name" placeholder="Имя Фамилия" />
+                    </p>
+                    <p>
+                        <label for="user-email">Ваш e-mail:</label>
+                        <input id="user-email" type="email" name="e-mail" placeholder="email@example.com" />
+                    </p>
+                    <p>
+                        <label for="user-message">Текст письма:</label>
+                        <input id="user-message" type="text" name="user-message" placeholder="В свободной форме" />
+                    </p>
+                    <button type="button">Отправить</button>
+                </form>
+            </div>
+            <div class="map-zoom">
+                <img src="img/map.png" width="960" height="559" alt="Карта"/>
+                <button class="icon-button">
+                    <img src="img/modal-close.svg" width="55" height="55" alt="Закрыть модальное окно" />
+                </button>
+            </div>               
         </main>
 
         <footer class="footer">
             <nav class="footer-navigation">
                 <a class="footer-logo">
-                    <h1>Device</h1>
+                    <h2>Device</h2>
                 </a>
                 <ul class="user-navigation">
                     <li class="user-navigation__item"><a href="login.html">Вход</a></li>
