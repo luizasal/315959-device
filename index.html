@@ -10,7 +10,10 @@
                 <a class="main-header-logo">
                     <h2>Device</h2>
                 </a>
-                <input type="search" name="search" placeholder="Поиск по сайту" />
+                <form>
+                    <input type="search" name="search" placeholder="Поиск по сайту" />
+                    <button type="submit">Найти</button>
+                </form>
                 <ul class="user-navigation">
                     <li class="user-navigation__item"><a href="login.html">Вход</a></li>
                     <li class="user-navigation__item"><a href="compare.html">Сравнить</a></li>
@@ -131,9 +134,7 @@
             <div class="modal-window">
                 <form class="contact_form" method="post" action="https://echo.htmlacademy.ru">
                     <h2 class="visually-hidden">Напишите нам</h2>
-                    <button class="icon-button">
-                        <img src="img/modal-close.svg" width="55" height="55" alt="Закрыть модальное окно" />
-                    </button>
+                    <button class="icon-button">Закрыть</button>
                     <p> 
                         <label for="user-name">Ваше имя:</label>
                         <input id="user-name" type="text" name="name" placeholder="Имя Фамилия" />
@@ -146,14 +147,12 @@
                         <label for="user-message">Текст письма:</label>
                         <input id="user-message" type="text" name="user-message" placeholder="В свободной форме" />
                     </p>
-                    <button type="button">Отправить</button>
+                    <button type="submit">Отправить</button>
                 </form>
             </div>
             <div class="map-zoom">
                 <img src="img/map.png" width="960" height="559" alt="Карта"/>
-                <button class="icon-button">
-                    <img src="img/modal-close.svg" width="55" height="55" alt="Закрыть модальное окно" />
-                </button>
+                <button class="icon-button">Закрыть</button>
             </div>               
         </main>
 
